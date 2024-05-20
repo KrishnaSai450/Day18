@@ -1,0 +1,91 @@
+/* #divMain{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    transition: all 2s;
+} */
+#div1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: inline-block;
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+ @keyframes animation1{
+    0%{transform: translateY(20px); background-color: aquamarine;}
+    25%{transform: translateY(40px); background-color: azure;}
+    50%{transform: translateY(60px); background-color: beige;}
+    75%{transform: translateY(80px); background-color: aqua;}
+    100%{transform: translateY(100px); background-color: aquamarine;}
+}
+#div2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(9, 134, 134);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    display: inline-block;
+    animation-name: animation2;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes animation2{
+    0%{transform: translateY(20px); background-color: aquamarine;}
+    25%{transform: translateY(40px); background-color: azure;}
+    50%{transform: translateY(60px); background-color: beige;}
+    75%{transform: translateY(80px); background-color: aqua;}
+    100%{transform: translateY(100px); background-color: aquamarine;}
+}
+#div3{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(205, 142, 9);
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: inline-block;
+    animation-name: animation3;
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes animation3{
+    0%{transform: translateY(20px); background-color: aquamarine;}
+    25%{transform: translateY(40px); background-color: azure;}
+    50%{transform: translateY(60px); background-color: beige;}
+    75%{transform: translateY(80px); background-color: aqua;}
+    100%{transform: translateY(100px); background-color: aquamarine;}
+}
+#div4{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(171, 19, 138);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    display: inline-block;
+    animation-name: animation4;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation4{
+    0%{transform: translateY(20px); background-color: aquamarine;}
+    25%{transform: translateY(40px); background-color: azure;}
+    50%{transform: translateY(60px); background-color: beige;}
+    75%{transform: translateY(80px); background-color: aqua;}
+    100%{transform: translateY(100px); background-color: aquamarine;}
+}
